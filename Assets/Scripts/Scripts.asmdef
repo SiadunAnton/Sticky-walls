@@ -6,7 +6,8 @@
         "Unity.TextMeshPro",
         "Unity.RenderPipelines.Universal.Runtime",
         "Unity.Addressables",
-        "Unity.ResourceManager"
+        "Unity.ResourceManager",
+        "Unity.RenderPipelines.Universal.2D.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

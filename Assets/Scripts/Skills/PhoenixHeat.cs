@@ -6,7 +6,7 @@ public class PhoenixHeat : MonoBehaviour
 {
     [SerializeField] private float _duration;
     [SerializeField] private Color _color;
-    //[SerializeField] private Light2D _light;
+    [SerializeField] private Light2D _light;
 
     private bool _isActive = false;
     private float _cachedOuterRadius;
@@ -36,20 +36,20 @@ public class PhoenixHeat : MonoBehaviour
 
     private void Set()
     {
-        //_light.pointLightOuterRadius = _cachedOuterRadius * 2;
-        //_light.color = _color;
+        _light.pointLightOuterRadius = _cachedOuterRadius * 2;
+        _light.color = _color;
     }
 
     private void Save()
     {
-        //_cachedOuterRadius = _light.pointLightOuterRadius;
-        //_cachedColor = _light.color;
+        _cachedOuterRadius = _light.pointLightOuterRadius;
+        _cachedColor = _light.color;
     }
 
     private void Reset()
     {
-        //_light.pointLightOuterRadius = _cachedOuterRadius;
-        //_light.color = _cachedColor;
+        _light.pointLightOuterRadius = _cachedOuterRadius;
+        _light.color = _cachedColor;
         _isActive = false;
     }
 
