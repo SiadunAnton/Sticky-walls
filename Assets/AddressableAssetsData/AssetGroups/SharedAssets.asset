@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SharedAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: SharedAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0248b641e7fae4551a418f1f016052d6
+  m_SerializeEntries:
+  - m_GUID: 1a39623978b354e00915f2898757407a
+    m_Address: Assets/Materials/Wall.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e260cfa7296ee7642b167f1eb5be5023
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88305456605a849ac96dbbe4b9fe8a48
+    m_Address: Assets/Animation/DestructibleWall/Destructible.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f355d7a63e0344c7aec06e0d7238466
+    m_Address: Assets/Animation/DestructibleWall/Destroy.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f975bbb4e9464d17966ee488aea750c
+    m_Address: Assets/Animation/DestructibleWall/Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbf08971da7f94997b590c57b586ad97
+    m_Address: Assets/Sprites/BreakableSheet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe393ace9b354375a9cb14cdbbc28be4
+    m_Address: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3265ab4bf004d28a9537516768c1c75
+    m_Address: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17f7d6d8e528b94479195a7d80e75cc4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b5fbb27c081be452f94a31209ddad407, type: 2}
+    - {fileID: 11400000, guid: 73a6d1241ec9346d8970242063c5e7c7, type: 2}

@@ -1,0 +1,65 @@
+Contains the basic concepts of the domain . Updated as understanding of the domain improves.
+
+Subdomains:
+
+Core domain:
+
+	-Objects Interactions - it concentrates the main game mechanics that create game experience and focus on interaction and level objects.
+
+	-Level generation - level creation; supports time spent in the game by showing the player a new problem solving space.
+
+Supporting subdomains:
+
+	-Data save - saves data from previous game sessions, helps to form a strategic component of player involvement.
+
+	-Movement - without implementing the movement specific to both the genre and the game, it is difficult to transfer the experience that is needed.
+
+Generic subdomains:
+
+	-In-game Events - event handling, distribution of activities into different subdomains.
+
+	-Purchasings - buy in-game items for real currency or in-game.
+	
+	-External services - external services connected to the application used to integrate into the SDK application : advertising, achievements, saving, analytics services etc.
+
+
+Contexts:
+
+	-Input - provides interaction of the player with the game, organizes processing of signals of the device and their translation into actions. The specificity of processing applies to it.
+	-Physics movement - moving the player in the game space on a physical basis.
+
+	-Triggered - interactions in the system of objects responding to touch (colision).
+	-Active objects - behavior of objects that have their own behavior settings.
+
+	-Space creation - generation of objects in the game space to simulate the continuation of the level.
+	
+	-Progress - Save and upload previous game settings, score and record.
+
+	-Store - buying game styles.
+
+	-Payment - payment for a purchase for real money.
+
+	-Debug - событийная модель, в которую поступают все события игры, в том числе события ввода, перемещений, взаимодействий и т.д. На ее основе можно воспроизвести
+сценарий, по которому проходила игра.
+	-Unique - generation of events belonging only to the category unique. Are important only for achievements.
+	-Changed state - Events that fall into the general gaming category. This is Level Start, Death, Checkpoint Achievement, etc. They are important for keeping progress.
+
+	-Achivements - processing gaming achievements.
+	-Advertising - external advertising.
+
+Terms:
+
+*
+*
+*
+
+	
+
+
+
+
+
+
+
+
+

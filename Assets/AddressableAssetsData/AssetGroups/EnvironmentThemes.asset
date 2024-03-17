@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: EnvironmentThemes
+  m_EditorClassIdentifier: 
+  m_GroupName: EnvironmentThemes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 96c6bfc48d3b645358cbe245b536bc1e
+  m_SerializeEntries:
+  - m_GUID: 4831f517dc91a45a9a1d830146856ad4
+    m_Address: AddTheme1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 095c924e555844fec9847253ef67186a
+    m_Address: DefaultTheme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17f7d6d8e528b94479195a7d80e75cc4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 46d5be103f0784fb9a4a21211a74aebb, type: 2}
+    - {fileID: 11400000, guid: fdd1a324a685c4cdf89697a60c3d9e6f, type: 2}

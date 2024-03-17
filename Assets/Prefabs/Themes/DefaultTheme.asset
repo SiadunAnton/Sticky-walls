@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c003cdd6bc2184053b8c531e154be17c, type: 3}
+  m_Name: DefaultTheme
+  m_EditorClassIdentifier: 
+  _wallSprites:
+  - Name: checkpoint
+    Sprite: {fileID: 1455659513, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: dangerous
+    Sprite: {fileID: 1751058461, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: elastic
+    Sprite: {fileID: 20998377, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: electric
+    Sprite: {fileID: -1469937419, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: discharge
+    Sprite: {fileID: -1974472757, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: moving
+    Sprite: {fileID: -29290655, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: sliding
+    Sprite: {fileID: 1133531920, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}
+  - Name: turnstile
+    Sprite: {fileID: -798594025, guid: 6fd1c97a3662d4b4a824b52eded7d857, type: 3}

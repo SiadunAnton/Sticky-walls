@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WallAtlases
+  m_EditorClassIdentifier: 
+  m_GroupName: WallAtlases
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f7b4a50d578214a57bc03c54cc320c84
+  m_SerializeEntries:
+  - m_GUID: 877d8f9dc3b514b54b6bb212228d9beb
+    m_Address: WallAtlas1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43079e2eab9c8491199be3cb10462f30
+    m_Address: WallAtlasDefault
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 17f7d6d8e528b94479195a7d80e75cc4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f77832992cc7a4208b6f620bd6127f5b, type: 2}
+    - {fileID: 11400000, guid: 76438e638ff8d40f6b87f4ea9570e968, type: 2}
